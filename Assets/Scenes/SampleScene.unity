@@ -383,8 +383,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 188.1, y: 0}
-  m_SizeDelta: {x: -308.49847, y: -145.18176}
+  m_AnchoredPosition: {x: 133.2, y: -1.282196}
+  m_SizeDelta: {x: -1.543457, y: 154.90634}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &261284126
 MonoBehaviour:
@@ -515,7 +515,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 46, y: -6, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1023,7 +1023,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -255, y: 0}
+  m_AnchoredPosition: {x: -239, y: -2}
   m_SizeDelta: {x: 250, y: 400}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1096886749
@@ -1108,22 +1108,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _content: {fileID: 622387592}
   _menuItemTemplate: {fileID: 680523993}
-  _list:
+  _inventoryItems:
   - {fileID: 11400000, guid: d58db67f899c2f546a1b2cc041652eec, type: 2}
   - {fileID: 11400000, guid: d9bf6e978bc25bc408e00a99d005998e, type: 2}
   - {fileID: 11400000, guid: b576ddf797ec88b459fb41b28b22a6a3, type: 2}
-  - {fileID: 11400000, guid: 26ee687b65d11684f9c06d1df0834d4d, type: 2}
   - {fileID: 11400000, guid: 670c6fb6d0104e94797f6ed29be8b398, type: 2}
   - {fileID: 11400000, guid: b576ddf797ec88b459fb41b28b22a6a3, type: 2}
-  - {fileID: 11400000, guid: d58db67f899c2f546a1b2cc041652eec, type: 2}
-  - {fileID: 11400000, guid: 26ee687b65d11684f9c06d1df0834d4d, type: 2}
-  - {fileID: 11400000, guid: d9bf6e978bc25bc408e00a99d005998e, type: 2}
+  - {fileID: 11400000, guid: 670c6fb6d0104e94797f6ed29be8b398, type: 2}
   - {fileID: 11400000, guid: 26ee687b65d11684f9c06d1df0834d4d, type: 2}
   - {fileID: 11400000, guid: d58db67f899c2f546a1b2cc041652eec, type: 2}
   - {fileID: 11400000, guid: b576ddf797ec88b459fb41b28b22a6a3, type: 2}
-  - {fileID: 11400000, guid: b576ddf797ec88b459fb41b28b22a6a3, type: 2}
-  - {fileID: 11400000, guid: d58db67f899c2f546a1b2cc041652eec, type: 2}
   - {fileID: 11400000, guid: d9bf6e978bc25bc408e00a99d005998e, type: 2}
+  - {fileID: 11400000, guid: 670c6fb6d0104e94797f6ed29be8b398, type: 2}
+  - {fileID: 11400000, guid: d58db67f899c2f546a1b2cc041652eec, type: 2}
+  - {fileID: 11400000, guid: d58db67f899c2f546a1b2cc041652eec, type: 2}
+  - {fileID: 11400000, guid: 26ee687b65d11684f9c06d1df0834d4d, type: 2}
+  - {fileID: 11400000, guid: 26ee687b65d11684f9c06d1df0834d4d, type: 2}
   activeInventoryItemChangeEvent:
     m_PersistentCalls:
       m_Calls:
