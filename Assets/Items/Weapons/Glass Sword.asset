@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: Glass Sword
   m_EditorClassIdentifier: 
   label: Glass Sword
+  value: 2500

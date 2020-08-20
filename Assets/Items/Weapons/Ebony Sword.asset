@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: Ebony Sword
   m_EditorClassIdentifier: 
   label: Ebony Sword
+  value: 2500

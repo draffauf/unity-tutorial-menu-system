@@ -21,7 +21,6 @@ public class InventoryItemList : MonoBehaviour
   {
     AddMenuItems();
     SortInventoryItems();
-    SetMenuItems();
     ActivateFirstItem();
   }
 
@@ -59,15 +58,25 @@ public class InventoryItemList : MonoBehaviour
     InventoryItem item = _inventoryItems[index];
     GameObject menuItem = _menuItems[index];
 
-    string label = $"   {item.label}";
+    string spacer = "   ";
+    string label = $"{spacer}{item.label}";
     menuItem.name = label;
-    menuItem.GetComponentInChildren<Text>().text = label;
+    menuItem.transform.Find("Name").GetComponent<Text>().text = label;
+    menuItem.transform.Find("Value").GetComponent<Text>().text = $"{item.value}{spacer}";
     menuItem.GetComponent<ItemChooser>().item = item;
   }
 
-  void SortInventoryItems(string property = "name")
+  public void SortInventoryItems(string property = "value")
   {
-    if (property == "name")
-      _inventoryItems = _inventoryItems.OrderBy(item => item.name).ToList();
+    switch (property) {
+      case "value":
+        _inventoryItems = _inventoryItems.OrderBy(item => item.value).ToList();
+        break;
+      default:
+        _inventoryItems = _inventoryItems.OrderBy(item => item.label).ToList();
+        break;
+    }
+
+    SetMenuItems();
   }
 }

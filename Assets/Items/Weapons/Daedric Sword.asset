@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: Daedric Sword
   m_EditorClassIdentifier: 
   label: Daedric Sword
+  value: 5000

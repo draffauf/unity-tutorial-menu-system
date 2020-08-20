@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: Nightingale Bow
   m_EditorClassIdentifier: 
   label: Nightingale Bow
+  value: 10000

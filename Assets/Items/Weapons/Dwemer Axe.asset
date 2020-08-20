@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: Dwemer Axe
   m_EditorClassIdentifier: 
   label: Dwemer Axe
+  value: 1000
